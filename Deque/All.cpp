@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-	// Deque is not more like Queue, it's more like Vector
+	// Deque is not more like a Queue, it's more like a Vector
 	// (Advanced vector, where you can do almost any operation you want )
     deque<int> dq = {1, 2, 3};
 

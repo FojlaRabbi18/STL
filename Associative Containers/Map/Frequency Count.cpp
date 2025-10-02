@@ -8,7 +8,7 @@ map<string, int> freq (vector<string> &s){
     for(int i = 0; i < s.size(); i++) {
         m[s[i]]++;  
         // When the value part is not present and we are still trying to 
-        // access the value part then it starts from the default value
+        // access the value part then it starts from the default value.
         // key++ means the value associated with the key is increasing 
         // like int x = 20; ---> x++ is 20 + 1 = 21
     }
@@ -24,7 +24,7 @@ int main(){
     map<string, int> m = freq(s);
     for(auto it = m.begin(); it != m.end(); it++) {
         cout << (*it).first << " " << (*it).second << '\n';
-        // Must use the (*it) then the first and second, because "it" is an iterator
+        // Must use the (*it) then first and second, because "it" is an iterator
         // so we cannot write it.first and it.second, we need to access the pair first..
     }
 
